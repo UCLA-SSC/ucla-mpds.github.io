@@ -25,7 +25,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #FF
 
 .hdr{position:relative!important;height:auto!important;flex-wrap:wrap;gap:8px;padding:12px max(16px, env(safe-area-inset-left, 0px))!important;background:#003B5C!important}
 .navlist{flex-wrap:wrap}
-.hero{grid-template-columns:1fr!important;height:auto!important}
+.hero{grid-template-columns:1fr!important;height:auto!important;min-height:0!important}
 .hero>div:first-child{height:260px}
 .hero>div:last-child{padding:40px 16px!important}
 .hero h1{font-size:40px!important;white-space:normal!important}
@@ -45,7 +45,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #FF
 /* header logo: fixed size; menu drops below it when the row runs out of room */
 .hdr>a:first-child{flex:0 0 513px;width:513px;min-width:513px;max-width:none}
 .hdr>a:first-child img{width:513px!important;height:42px!important;min-width:513px;max-width:none!important;flex:none;object-fit:contain}
-@media (max-width: 1120px){
+.hero{height:auto!important}
+@media (max-width: 1260px){
 .hdr{position:relative!important;height:auto!important;flex-wrap:wrap;gap:8px;padding:12px max(16px, env(safe-area-inset-left, 0px))!important;background:#003B5C!important}
 .navlist{flex-wrap:wrap}
 }
@@ -60,7 +61,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #FF
 <a href="#main" style="position: absolute; left: 16px; top: -60px; background: #FFB81C; color: #003B5C; padding: 12px 16px; font-weight: 700; z-index: 6">Skip to main content</a>
 
 <header class="hdr" style="position: absolute; top: 0; left: 0; right: 0; z-index: 5; height: 80px; box-sizing: border-box; background: transparent; padding: 0 56px; display: flex; align-items: center; justify-content: space-between">
-<a href="Home.html" style="display: flex; align-items: center; gap: 12px; color: #FFFFFF; text-decoration: none; min-height: 44px">
+<a href="index.html" style="display: flex; align-items: center; gap: 12px; color: #FFFFFF; text-decoration: none; min-height: 44px">
 <img src="images/mpds-logo-white.svg" width="513" height="42" alt="UCLA College, Social Sciences: Master of Population Data Science, home" style="display: block; height: 42px; width: auto">
 </a>
 <nav aria-label="Main">
@@ -87,7 +88,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #FF
 <img src="images/lifem-network.jpg" alt="" style="position: absolute; top: 2950px; left: -260px; width: 1240px; max-width: none; height: auto; transform: scaleX(-1); pointer-events: none; mix-blend-mode: screen; opacity: 0.8; -webkit-mask-image: radial-gradient(ellipse 62% 62% at 50% 40%, #000 35%, transparent 100%); mask-image: radial-gradient(ellipse 62% 62% at 50% 40%, #000 35%, transparent 100%)">
 <div aria-hidden="true" style="position: absolute; top: 0; left: 0; right: 0; height: 170px; z-index: 2; background: linear-gradient(to bottom, rgba(0,38,60,0.78) 0%, rgba(0,38,60,0.45) 50%, rgba(0,38,60,0) 100%)"></div>
 <!-- FIRST SCREEN: 900px hero with the header laid over it -->
-<section class="hero" aria-label="Introduction" style="position: relative; z-index: 1; height: 900px; display: grid; grid-template-columns: minmax(0, 54fr) minmax(0, 46fr)">
+<section class="hero" aria-label="Introduction" style="position: relative; z-index: 1; height: 900px; min-height: 900px; display: grid; grid-template-columns: minmax(0, 54fr) minmax(0, 46fr)">
 <div style="position: relative; overflow: hidden">
 <img src="images/botanical-garden-students-1600.jpg" srcset="images/botanical-garden-students-800.webp 800w, images/botanical-garden-students-1600.webp 1600w" sizes="(max-width: 900px) 100vw, 800px" fetchpriority="high" alt="Three students sit at a wooden table beneath the trees in UCLA's botanical garden, smiling as one sketches on a tablet." style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 78% 30%; -webkit-mask-image: linear-gradient(to right, #000 74%, rgba(0,0,0,0.5) 90%, transparent 100%), linear-gradient(to bottom, #000 62%, rgba(0,0,0,0.4) 85%, transparent 100%); -webkit-mask-composite: source-in; mask-image: linear-gradient(to right, #000 74%, rgba(0,0,0,0.5) 90%, transparent 100%), linear-gradient(to bottom, #000 62%, rgba(0,0,0,0.4) 85%, transparent 100%); mask-composite: intersect">
 <div style="position: absolute; left: 40px; bottom: 36px; background: #FFFFFF; padding: 20px 24px; display: flex; gap: 16px; align-items: center; box-shadow: 0 10px 30px rgba(0,0,0,0.25)">

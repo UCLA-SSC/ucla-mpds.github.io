@@ -153,6 +153,8 @@ Smaller items (lower priority):
 
 ## 7. Change log (newest first)
 
+- **2026-10-23, ~3:20 pm:** Home At a glance now matches the brochure: "15 courses / in social and data science", "20 months / 6 quarters, or 4-quarter accelerated option", "9-month / mentored capstone" (Google Doc, Draft v6 index.html, previews).
+
 - **2026-10-23, ~3:05 pm (second sync):** Program At a glance synced to Martha's doc edits: "over 6 quarters (20 months), with an accelerated 4-quarter option" and date "January 15" (no year; tile back to one line). Note: Home, the Program path note and the Program FAQ still say "16-month".
 
 - **2026-10-23, ~3:15 pm:** Synced Martha's doc edits: Program At a glance now "January 15, 2027" / "priority deadline, with decisions by March 1; rolling decisions after" (the doc had a date chip reading "Jan 15, 2026"; replaced with text "January 15, 2027"); Tuition At a glance "$64,800 / tuition + fees, health insurance, materials & personal expenses" and "100% / applicants considered for merit fellowships, no separate application". Added "Calculate ROI (PDF)" link under 8-34% (links to MPDS-ROI-Methodology.pdf; same style as "Cost sheet (PDF)"), also added to the doc. Layout fix on all pages: the hero now grows when its text needs more room (it overlapped At a glance at about 1000–1300 px wide, also in the soft-launched v5), and the menu drops below the logo up to 1260 px (it ran off the right edge at 1121–1240 px).
